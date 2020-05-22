@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 13, 2020, 1:56:09 PM
+    Author     : Fathima
+*/
+
+
+body {
+    background-color: cornsilk;
+}
+
+header {
+        background-color: #1A446C ;
+        color: #689DC1 ;
+        height: 60px;
+}
+h1 {
+    margin: auto;
+    width: 40%;
+    padding: 10px;         
+}
+
+p {
+    background-color: #9900ff;
+} 
+
+form {
+      display: inline-block;
+       padding-left: 10%;
+}
+footer {
+        background-color: #1A446C ;
+        color: #689DC1 ;
+        height: 50px;
+}
+footer h1 {
+    font-size: 1em;
+    margin: auto;
+    width: 20%;
+    padding: 10px;         
+}
+
+
+.registrationWrapper {
+    
+}
+
+.registrationWrapper table {
+    border: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-color: darkgray;
+    border-style: outset;
+}
+
+
+
+.confirmWrapper {
+    width: 100%;
+}
+
+table {
+    border: 10px solid black;
+    border-style:outset;
+    background-color: antiquewhite;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+}
+
+.confirmWrapper td {
+   background: antiquewhite;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+/*
+//  Specific for Display Database
+*/
+.showDBWrapper {
+    width: 100%;
+}
+
+.showDBWrapper table {
+/*
+  //  border: 1px solid black;
+*/  
+    border: 8px solid black;
+    border-style:double;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10%;
+    border-collapse: collapse;
+
+}
+
+td.cellEven {
+   background-color: #F6CECE;
+   color: black;
+   border: 2px solid black;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+td.cellOdd {
+   background-color: #CEF6F5;/* //   : #99CCCC;
+*/   color: black;
+   border: 2px solid black;
+   padding-left: 1em;
+   padding-right: 1em;
+
+}
+
+td.leftSide {
+    text-align: right;
+    padding-left: 1em;
+}
+
+td.rightSide {
+    padding-right: 1em;
+}
+
+
+
